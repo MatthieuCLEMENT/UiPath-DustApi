@@ -1,0 +1,26 @@
+[
+  {
+    "Constant": true,
+    "Name": "timezone_us",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"America/New_York\"",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "timezone_fr",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"Europe/Paris\"",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "apiUser",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"Infotel\"",
+    "IsLiteral": false
+  }
+]

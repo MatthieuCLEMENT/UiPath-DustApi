@@ -1,0 +1,523 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="IntegrationServices" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CB361597A8F_ApiV1WAssistantAgent_configurationsSearch_List.Bundle;assembly=CB361597A8F_ApiV1WAs.yMPnw3BKwKC1VAT0gTTT6V" xmlns:uiascb1="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CB7B091D174_ApiV1WAssistantConversationsCId_Retrieve.Bundle;assembly=CB7B091D174_ApiV1WAs.lMclc2sX3BN1l576v3nQr8p3" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="q" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>IntegrationServices_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.Web</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantAgent_configurationsSearch_List.Bundle</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantAgent_configurationsSearch_List.Bundle</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CB7B091D174_ApiV1WAssistantAgent_configurationsSearch_List.Bundle</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CB7B091D174_ApiV1WAssistantAgent_configurationsSearch_List.Bundle</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CB361597A8F_ApiV1WAssistantAgent_configurationsSearch_List.Bundle</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Web</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.DaV4b2ZyLaC1kX2Hc3S2X564</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.remBiXPSdL1akTdHtRynp2</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.UXy4mZohpG1QsLbt1vEfht2</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.2Nde21nBsEH12sliIoixPv2</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.Bm9n64NwRDI1opUxQ2iaveV1</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.seHbg18eiqH1ptLnr1e4iK34</AssemblyReference>
+      <AssemblyReference>CE4EA330162_ApiV1WAs.KpaGl3TIthK1oR8xPDXC3Q4</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>CB7B091D174_ApiV1WAs.AYzNi3xcJrM1w0FmI4lFQ8J3</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>CB7B091D174_ApiV1WAs.JhCui3lyw3Q1dBZta3ZyWpw</AssemblyReference>
+      <AssemblyReference>CB7B091D174_ApiV1WAs.lMclc2sX3BN1l576v3nQr8p3</AssemblyReference>
+      <AssemblyReference>CB361597A8F_ApiV1WAs.yMPnw3BKwKC1VAT0gTTT6V</AssemblyReference>
+      <AssemblyReference>CB361597A8F_ApiV1WSp.FJ0XT41iyTJ1vOtqw36BCmC3</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="IntegrationServices" sap:VirtualizedContainerService.HintSize="1286,1132" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="Utilisation de l'Integration Service pour faire appel aux fonctionnalitées Dust" sap:VirtualizedContainerService.HintSize="502,1109" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="requestUrl" />
+        <Variable x:TypeArguments="x:Int32" Name="responseStatus" />
+        <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="responseHeaders" />
+        <Variable x:TypeArguments="uiascb:ApiV1WAssistantAgent_configurationsSearch_List[]" Name="resultAgentsList" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Appel à l'API Dust via IntegrationServices&quot;]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:LogMessage>
+      <Sequence DisplayName="Dust AI - List All Records" sap:VirtualizedContainerService.HintSize="468,662" sap2010:WorkflowViewState.IdRef="Sequence_20">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:Object" Name="ResultFromApi" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:LogMessage DisplayName="Log Dust AI List All Record" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot; # # # DUST AI - List All Record # # # &quot;]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACp1UXXPaMBD8Kx49EwOTNm2ZyYMhSUuTFBoc8tDJMEI+QEVIRjol9TD8955sk5KvmaTDCz7drXdvV96wMwkqcz2jkUsNlnU2bATcigWfKqgOWefXbYP1de7xobBhP/gKWIetWYOdSJcrXuxXwAkrc5RGU6UCjNYebBHNjI34HDRGwuiZnHvLQ1ukadrRaFrkAcWhlXpOz1ew9tJCxjpoPTQqwhdGlFPU+DOgUl/fXQIuTDbklpAwSAkDW6I+8Pgi9+8SJ0kux+2bxDnpkGtMArPJI2auov9MZ62q1OKiaVEqeKb9n6JrOeS4iPsaYV4hj8DeSQFxIlDeSZTg4tHNqcbqb697eNT++OVT8vns7SwnF9QRd73OFOG+a4pMjl56Z1xcDvX9Yff8/rzXHidpa56m6dG4EY3BOsI4bset8KNpr9BbONbg0XLViIZ+qqQ4hyI1S9DH2itVOwoOWWfGlSNHr8DlRAVec7iyr7SYHCtPd61kOsV2B7B3tL3dhsgG3QIeIkHub1hNm4BL4oRL6dcg0FhiSmXhHZrVgdQzg04tc5/hQUY1Lqm39qqoTf0KdGmkoINBDtVOqRrWyYhAj4sFkBSz9PmYK1IdCAymv+ltVYoojH2izP4jhj2j/EqHQL8SRUr+qLxFZ8auOD4dY5vW9o2hLrdZielac+/A9hFWQQzVh1auuC1od/WXYsjFkgD299z+8HjR9dtOrkdplPT3T/anDsuhal1vu3v7q33XTp+512DfEPPqkxJ8Pk2pFC4wPTT5DrNZMngC2nQ71Auu555aaAZ0gOSua4EvyZPegs5CHupLkMIf7CojluUSt38BxyMaC5kFAAA=" ConnectionId="a0d63173-14ba-4695-a0de-28b361597a8f" DisplayName="List All Records" sap:VirtualizedContainerService.HintSize="434,235" sap2010:WorkflowViewState.IdRef="ConnectorActivity_3" UiPathActivityTypeId="e6c2e5e4-b245-3931-997a-309117a6961e">
+          <isactr:ConnectorActivity.FieldObjects>
+            <isactr:FieldObject Name="q" Type="FieldArgument">
+              <isactr:FieldObject.Value>
+                <InArgument x:TypeArguments="x:String">[q]</InArgument>
+              </isactr:FieldObject.Value>
+            </isactr:FieldObject>
+            <isactr:FieldObject Name="Jit_ApiV1WAssistantAgent_configurationsSearch" Type="FieldArgument">
+              <isactr:FieldObject.Value>
+                <OutArgument x:TypeArguments="uiascb:ApiV1WAssistantAgent_configurationsSearch_List[]">[resultAgentsList]</OutArgument>
+              </isactr:FieldObject.Value>
+            </isactr:FieldObject>
+          </isactr:ConnectorActivity.FieldObjects>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </isactr:ConnectorActivity>
+        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_7">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Object">[ResultFromApi]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Object">[resultAgentsList(0)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Trace" Message="[ResultFromApi]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+      </Sequence>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="CommentOut_12">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="502,966" sap2010:WorkflowViewState.IdRef="Sequence_21">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="DUST AI - Http Request" sap:VirtualizedContainerService.HintSize="468,906" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Dust AI HttpRequest" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot; # # # DUST AI - Http Request # # # &quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <Assign DisplayName="Assign Request URL" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_5">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[requestUrl]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">/assistant/agent_configurations/search?q=techDoc</InArgument>
+                </Assign.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Assign>
+              <isactr:ConnectorHttpActivity Configuration="H4sIAAAAAAAACu1WS2/aQBD+K9UeK4NB6smqIvFKQKXBTUiqtsphsx5gg7272UcIsfjvnV0b2hTUUinqpeEAnvHMN4+db5aSnHLIM9OTwlIuQJOkJCOhnK30JPlWknNaAElIAXYhMxKRPjcqp+ta/XGrnq6Vl43VXMxRvoB7xzVkJLHaQVRFGktGLZcCDbsyW5NNtMN3Ot8DH4hMSS7sC8AvgGagzQ8keXsHzCOfSl1Qi5qMM+9M9fp9FSbiKMxdAcLWmpOTENooKQwcG/regV6/ROA/Bbr18n6r+mD4HO3LCqATglVnWz3XDkOegS/P5VC9vYBZ8Ph1Arb6a5q7YErOBlNys7nxuTyDvFzI1VGQI/NZ6uUsl6vBo9JgTKiw6u9+uHRyOUWn9Mp/9wfjwXTgxc60NwxpYCL/T63HDiQaTpw9yO1/SI4qhdepfZ3av58UJgNpD10FYHBIZzQ3cDyw3xK1b6rhgcMqpRojWU8F3Jb11ZYExkfkCi8opIq1yiRxnDljm9bGVPH4oR2v4oWadWdfW1/O+2g7rAmFKB2HKJo/7cgIVIN+Y5YNlr0NH7TvMAbK04wqlfMq0/jOoENE/OWMJGvUZe9ZYBWfwg2TlBt8HgljqWDwvJZr/K3it5utZquCFchxqT8AuhKG9ciiwcVMWpMvlctsw9dIeUjP8gdu13UKZ4B/FTjDF5OwJ7ZbBFuzPQtsAUq7DqYy6CYK9LYPPQ3Ugs++R9kC8IDk0qnt3it3+q6WKwN6ZKGo9anmBe4hzNsvMVxrKWVLOoefa2y/C0X+Jr8DuURkTMXcIRTqwPd+Co+2m0u2DJE23wF4n8MqMAkAAA==" ConnectionId="b80e1a0e-0386-4ee1-a763-c2b7b091d174" DisplayName="DUST AI HTTP Request" sap:VirtualizedContainerService.HintSize="434,488" sap2010:WorkflowViewState.IdRef="ConnectorHttpActivity_2" UiPathActivityTypeId="0e5e906b-91db-3217-afd5-566cc2cf7552">
+                <isactr:ConnectorHttpActivity.FieldObjects>
+                  <isactr:FieldObject Name="method" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <InArgument x:TypeArguments="x:String">GET</InArgument>
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="url" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <InArgument x:TypeArguments="x:String">[requestUrl]</InArgument>
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="headers" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="query" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="body" Type="FieldArgument" />
+                  <isactr:FieldObject Name="out_headers" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[responseHeaders]</OutArgument>
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="out_body" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <OutArgument x:TypeArguments="x:String">[responseContent]</OutArgument>
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="out_code" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <OutArgument x:TypeArguments="x:Int32">[responseStatus]</OutArgument>
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                </isactr:ConnectorHttpActivity.FieldObjects>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </isactr:ConnectorHttpActivity>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;API response status : '&quot;+responseStatus.ToString+&quot;' &#xA;API response content : '&quot;+responseContent+&quot;'&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,599" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="DUST AI - Record" sap:VirtualizedContainerService.HintSize="450,539" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Dust AI Record" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot; # # # DUST AI - Record # # # &quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACp1UbU/bMBD+K5E/h0KAjRGJD00LIxsvHS0waULIOEfr1bUz+1xWVf3vOycpa7dOq1C/pPf63D2Pb87OJKjCdYxGLjVYls5ZH7gVI/6koHay9NtDzHJdenw1zNkVnwBLmcgLFrOudKXis3UbOGFlidJosuXdyDxHOIJIGD0F63jliNlgVoYch1bqIf2/gR9eWihYitZDXAO8MKKOT1mP44jCcncJODJFj1tqigF5iF8Q0muPG6F+kvjYLuVdct92TjrkGjsrWFxnwygUH02T6CXiy5Q1/C4Skfx72N9j3cqAt5VrhKGtUvpgp1JAqy1QTiVKcK3+/anG+rOTHWV7x0k3OTr8H9bHG6CdwRRamdeFoopbxsfRpi4tdSmU2HdfD7KrRL07ej890F/sh/Igju6oDBU5SVp74Uf5XqG3cKLBo+Uqjnr+SUnxGWYDMwZ9or1SDZXgkKXPXDmi8gZcSVjgX9TWxFXkEleVdxlKdJM+lwVWXIuHRdBmmFjAqxiI9zlrYFPhCjjVpZVoEGgsIQ069Q7NZEfqZ4NOjUtf4E5BNi4ptuFn1hD5Eeh1SEGO6xJqJsm6XCkjEB0uRkDjmLEv77iiyQOI66fv1LFWE0mRJFaJajsRdozyEx1EvKUQSf396iGdGTvh+GcZNt9bvFHi1Z7rETNrXhzYHGESRiR7z8oJtzPaanMselyM+RBWGUgO1yloundv+4Oona96VrP2q6R6iW97masEbLH5jezG7ByxrA9O0MLpgEzVIUrZ7mv/3bX+u3M6g2HbF1wPPS2DYiEcvHPuMgt8TCx1RuQLOmkeyAB+YqaMGFdrXPwCCTIq6J4FAAA=" ConnectionId="b80e1a0e-0386-4ee1-a763-c2b7b091d174" DisplayName="Get Record" sap:VirtualizedContainerService.HintSize="416,235" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="9b6768c3-0019-3b8d-87f8-451083ef2859">
+                <isactr:ConnectorActivity.FieldObjects>
+                  <isactr:FieldObject Name="cId" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <InArgument x:TypeArguments="x:String" />
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                  <isactr:FieldObject Name="Jit_ApiV1WAssistantConversationsCId" Type="FieldArgument">
+                    <isactr:FieldObject.Value>
+                      <OutArgument x:TypeArguments="uiascb1:ApiV1WAssistantConversationsCId_Retrieve" />
+                    </isactr:FieldObject.Value>
+                  </isactr:FieldObject>
+                </isactr:ConnectorActivity.FieldObjects>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </isactr:ConnectorActivity>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;API response content : '&quot;+responseContent+&quot;'&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,305" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="DUST AI - Update Record" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_11">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Dust AI Update Record" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot; # # # DUST AI - Update Record # # # &quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACm2QwUrEMBCG32XO3WUXPPVmC+riwhZc9yIexnS2DUmTkEzUUnx3p3aRFTyFfP9P5ptMcKfJtqn2jlE7ilBO8EQYVY9vlpYQypfXAnYuZL4Gh8x/yNfcSYxOUYMRB2KKEkxwklN7ByVs15v1BgqQcY4U+/hIo2CVE/thpd3Zc7Im5JZXrTDU0r1VrN81j8cxkHTvSSy1kuAQKCIvDz+HFplAFGpUPbV7700OJ7SZZoVfXkX/kSjumIYLb6IeMI4iclmrQWWwo2vp7c2P9T8DC9ij67L0hZGT+wOmKhIa7bq6l2yef0abqIAjfXJlvTLLd30DDYAse3wBAAA=" ConnectionId="b80e1a0e-0386-4ee1-a763-c2b7b091d174" DisplayName="Update Record" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="ConnectorActivity_4" UiPathActivityTypeId="0f0494a4-7df7-312f-ac77-623775d4d555">
+                <isactr:ConnectorActivity.FieldObjects>
+                  <sco:Collection x:TypeArguments="isactr:FieldObject" />
+                </isactr:ConnectorActivity.FieldObjects>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </isactr:ConnectorActivity>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Trace" Message="[&quot;API response content : '&quot;+responseContent+&quot;'&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,305" sap2010:WorkflowViewState.IdRef="Sequence_16">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="DUST AI - Insert Record" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_12">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Dust AI Insert Record" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot; # # # DUST AI - Insert Record # # # &quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACm2QwWrDMAyG30XntLSwU25LYFtpoYGVXsYOmqMmJo4dZHlbCHv3KUsZHexk/P0/1idP8GDJ1bEMXtB6YsgneCZk0+KboyWE/OU1g50fktyCY5I/5GvuREFvqELGnoRYgwnOetrgIYfterPeQAY6zpORwHsaFZsUJfQr6y9BouuGVMuqVoZWu/dG7LuV8TQOpN1HUktrNDgOxCjLwyUTCoEqlGhaqg8hdGk4o0s0K/zygsNHJN4J9Vdese2RRxW5rlWh6bChW+nt3Y/1PwMzOKBvkvaVkdf7E8ZCs876pmw1m+df0EXK4ESfUrhguuW7vgHlg+a1fAEAAA==" ConnectionId="b80e1a0e-0386-4ee1-a763-c2b7b091d174" DisplayName="Insert Record" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="ConnectorActivity_5" UiPathActivityTypeId="211c6905-5ea5-3801-814b-db031a3f6f19">
+                <isactr:ConnectorActivity.FieldObjects>
+                  <sco:Collection x:TypeArguments="isactr:FieldObject" />
+                </isactr:ConnectorActivity.FieldObjects>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </isactr:ConnectorActivity>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Trace" Message="[&quot;API response content : '&quot;+responseContent+&quot;'&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="468,48" sap2010:WorkflowViewState.IdRef="CommentOut_9">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,432" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="DUST AI - Delete Record" sap:VirtualizedContainerService.HintSize="450,372" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Dust AI Delete Record" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot; # # # DUST AI - Delete Record # # # &quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACm2QQUvDQBCF/8uc09KCp9xMRC0WGrD0Ih7GzTRZstkNs7NqCP53J6ZIBU9LvvfY920muLfk6lgGL2g9MeQTPBOyafHN0RJC/vKawc4PSa7BIckf8jV3oqA3VCFjT0KswQQnPW3wkMN2vVlvIAOd82Qk8BONik2KEvqV9ecg0XVDqmVVK0Or3Vsj9t3KeBwH0u4DqaU1GhwGYpTl4jtyOgeqUKJpqd6H0KXhhC7RrPDLCw4fkXgn1F94xbZHHlXk8qwKTYcNXUtvb36s/xnMYI++SdpXRl6/HzEWTNhZ35StZvP+GV2kDI70KYULplt+1zfQo7gkfAEAAA==" ConnectionId="b80e1a0e-0386-4ee1-a763-c2b7b091d174" DisplayName="Delete Record" sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="ConnectorActivity_6" UiPathActivityTypeId="460d648e-6519-3548-a4af-3f1f34331806">
+                <isactr:ConnectorActivity.FieldObjects>
+                  <sco:Collection x:TypeArguments="isactr:FieldObject" />
+                </isactr:ConnectorActivity.FieldObjects>
+              </isactr:ConnectorActivity>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Trace" Message="[&quot;API response content : '&quot;+responseContent+&quot;'&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CommentOut>
+    </Sequence>
+  </Sequence>
+</Activity>

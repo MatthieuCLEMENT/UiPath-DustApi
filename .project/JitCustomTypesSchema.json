@@ -1,0 +1,1543 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "XGDjKRbISaMlpkz/PElHNGauf4sfIeOaTqhVbQ//fi6Ako7kvhdFDjkwLgKb4GRNy9X9Qe5OczvLD0Z/TAtjUg==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantAgent_configurations_List",
+        "entitiesBundle": {
+          "Types": {
+            "model": {
+              "name": "model",
+              "properties": [
+                {
+                  "name": "temperature",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "providerId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modelId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "agentConfigurations": {
+              "name": "agentConfigurations",
+              "properties": [
+                {
+                  "name": "model",
+                  "type": {
+                    "definitionName": "model"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionAuthorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "scope",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "instructions",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionCreatedAt",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "pictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "templateId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userFavorite",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "maxStepsPerRun",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "version",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantAgent_configurations_List": {
+              "name": "ApiV1WAssistantAgent_configurations_List",
+              "properties": [
+                {
+                  "name": "agentConfigurations",
+                  "type": {
+                    "definitionName": "agentConfigurations"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantAgent_configurations_List",
+        "hash": "WEdEaktSYklTYU1scGt6L1BFbEhOR2F1ZjRzZkllT2FUcWhWYlEvL2ZpNkFrbzdrdmhkRkRqa3dMZ0tiNEdSTnk5WDlRZTVPY3p2TEQwWi9UQXRqVWc9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.DaV4b2ZyLaC1kX2Hc3S2X564"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "5c2+LiOa0qr91d/fJ7TEgh/o4Ez6aTHT069RGvWKkVpmy9XzxWSEuvRoXbHLC7UnsPol9k9VQpwq0tNIvuUfFg==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantAgent_configurationsSearch_List",
+        "entitiesBundle": {
+          "Types": {
+            "model": {
+              "name": "model",
+              "properties": [
+                {
+                  "name": "temperature",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "providerId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modelId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "agentConfigurations": {
+              "name": "agentConfigurations",
+              "properties": [
+                {
+                  "name": "model",
+                  "type": {
+                    "definitionName": "model"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionAuthorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "scope",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "instructions",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionCreatedAt",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "pictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "templateId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userFavorite",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "maxStepsPerRun",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "version",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantAgent_configurationsSearch_List": {
+              "name": "ApiV1WAssistantAgent_configurationsSearch_List",
+              "properties": [
+                {
+                  "name": "agentConfigurations",
+                  "type": {
+                    "definitionName": "agentConfigurations"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantAgent_configurationsSearch_List",
+        "hash": "NWMyK0xpT2EwcXI5MWQvZko3VEVnaC9vNEV6NmFUSFQwNjlSR3ZXS2tWcG15OVh6eFdTRXV2Um9YYkhMQzdVbnNQb2w5azlWUXB3cTB0Tkl2dVVmRmc9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.remBiXPSdL1akTdHtRynp2"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "ClH9XLL615AvGTdC/Qndprhq/4m++JO3kAxdOkKKP14vFAVvpNc0vehsmRIjxs452epBpdqfB6x4CB7TPOxawA==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantAgent_configurationsSId_Retrieve",
+        "entitiesBundle": {
+          "Types": {
+            "model": {
+              "name": "model",
+              "properties": [
+                {
+                  "name": "temperature",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modelId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "providerId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "agentConfiguration": {
+              "name": "agentConfiguration",
+              "properties": [
+                {
+                  "name": "model",
+                  "type": {
+                    "definitionName": "model"
+                  }
+                },
+                {
+                  "name": "version",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userFavorite",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "templateId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "pictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "scope",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "instructions",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionCreatedAt",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionAuthorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "maxStepsPerRun",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantAgent_configurationsSId_Retrieve": {
+              "name": "ApiV1WAssistantAgent_configurationsSId_Retrieve",
+              "properties": [
+                {
+                  "name": "agentConfiguration",
+                  "type": {
+                    "definitionName": "agentConfiguration"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantAgent_configurationsSId_Retrieve",
+        "hash": "Q2xIOVhMTDYxNUF2R1RkQy9RbmRwcmhxLzRtKytKTzNrQXhkT2tLS1AxNHZGQVZ2cE5jMHZlaHNtUklqeHM0NTJlcEJwZHFmQjZ4NENCN1RQT3hhd0E9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.UXy4mZohpG1QsLbt1vEfht2"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "BQVCkCiCgsotcAFYhGBzFpRhs5E1gtniiL7FKDsfTsTT3XO6sMoijB56SrfJ0BVi1DZEbe4wKtMcpMQXXjWuJw==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantConversations_Create",
+        "entitiesBundle": {
+          "Types": {
+            "owner": {
+              "name": "owner",
+              "properties": [
+                {
+                  "name": "whiteListedProviders",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "segmentation",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "ssoEnforced",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "defaultEmbeddingProvider",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "flags",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "role",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "conversation": {
+              "name": "conversation",
+              "properties": [
+                {
+                  "name": "owner",
+                  "type": {
+                    "definitionName": "owner"
+                  }
+                },
+                {
+                  "name": "title",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "visibility",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "content",
+                  "type": {
+                    "ClrType": "System.Object, System.Private.CoreLib"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "created",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantConversations_Create": {
+              "name": "ApiV1WAssistantConversations_Create",
+              "properties": [
+                {
+                  "name": "conversation",
+                  "type": {
+                    "definitionName": "conversation"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantConversations_Create",
+        "hash": "QlFWQ2tDaUNnc290Y0FGWWhHQnpGcFJoczVFMWd0bmlpTDdGS0RzZlRzVFQzWE82c01vaWpCNTZTcmZKMEJWaTFEWkViZTR3S3RNY3BNUVhYald1Snc9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.2Nde21nBsEH12sliIoixPv2"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "ObxxtmIlOT9RoZ0SdJ2fr6OlYyRS2Z2weB1pgZlAdimBqceF9ftMTECuF76NYVLEo9ltm9PyDvFtj2wHQvR9Dw==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantConversations_contentFragments_Create",
+        "entitiesBundle": {
+          "Types": {
+            "context": {
+              "name": "context",
+              "properties": [
+                {
+                  "name": "profilePictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "fullName",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "origin",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "email",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "timezone",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "username",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantConversations_contentFragments_Create": {
+              "name": "ApiV1WAssistantConversations_contentFragments_Create",
+              "properties": [
+                {
+                  "name": "context",
+                  "type": {
+                    "definitionName": "context"
+                  }
+                },
+                {
+                  "name": "nodeId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "content",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "fileId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "nodeDataSourceViewId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "url",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "contentType",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "title",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantConversations_contentFragments_Create",
+        "hash": "T2J4eHRtSWxPVDlSb1owU2RKMmZyNk9sWXlSUzJaMndlQjFwZ1psQWRpbUJxY2VGOWZ0TVRFQ3VGNzZOWVZMRW85bHRtOVB5RHZGdGoyd0hRdlI5RHc9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.Bm9n64NwRDI1opUxQ2iaveV1"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "DKIoSdYWWcMEvLbHREeOJve0s+n/b2Ll5mySt10UykcS9XeLZJzZbxB+o94xuDHoorQxwNl0COjzke9+MuRJKQ==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantConversations_message_sub_mentions_Create",
+        "entitiesBundle": {
+          "Types": {
+            "ApiV1WAssistantConversations_message_sub_mentions_Create": {
+              "name": "ApiV1WAssistantConversations_message_sub_mentions_Create",
+              "properties": [
+                {
+                  "name": "configurationId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantConversations_message_sub_mentions_Create",
+        "hash": "REtJb1NkWVdXY01FdkxiSFJFZU9KdmUwcytuL2IyTGw1bXlTdDEwVXlrY1M5WGVMWkp6WmJ4QitvOTR4dURIb29yUXh3TmwwQ09qemtlOStNdVJKS1E9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.seHbg18eiqH1ptLnr1e4iK34"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "eNExKQ7EHPXsbI2fZrwPGgnsLxXExjaLYMb3WNvJK3E4tDyfqQ3TO4ki6CqiL8wFyeLWpfH5F3ujORJMixSPWQ==",
+        "bundleName": "CE4EA330162_ApiV1WAssistantConversationsCIdMessages_Create",
+        "entitiesBundle": {
+          "Types": {
+            "context": {
+              "name": "context",
+              "properties": [
+                {
+                  "name": "email",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "origin",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "profilePictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "username",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "timezone",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "fullName",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "mentions": {
+              "name": "mentions",
+              "properties": [
+                {
+                  "name": "configurationId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantConversationsCIdMessages_Create": {
+              "name": "ApiV1WAssistantConversationsCIdMessages_Create",
+              "properties": [
+                {
+                  "name": "context",
+                  "type": {
+                    "definitionName": "context"
+                  }
+                },
+                {
+                  "name": "mentions",
+                  "type": {
+                    "definitionName": "mentions"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "content",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CE4EA330162_ApiV1WAssistantConversationsCIdMessages_Create",
+        "hash": "ZU5FeEtRN0VIUFhzYkkyZlpyd1BHZ25zTHhYRXhqYUxZTWIzV052SkszRTR0RHlmcVEzVE80a2k2Q3FpTDh3RnllTFdwZkg1RjN1ak9SSk1peFNQV1E9PQ",
+        "assemblyName": "CE4EA330162_ApiV1WAs.KpaGl3TIthK1oR8xPDXC3Q4"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "5c2+LiOa0qr91d/fJ7TEgh/o4Ez6aTHT069RGvWKkVpmy9XzxWSEuvRoXbHLC7UnsPol9k9VQpwq0tNIvuUfFg==",
+        "bundleName": "CB7B091D174_ApiV1WAssistantAgent_configurationsSearch_List",
+        "entitiesBundle": {
+          "Types": {
+            "model": {
+              "name": "model",
+              "properties": [
+                {
+                  "name": "temperature",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "providerId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modelId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "agentConfigurations": {
+              "name": "agentConfigurations",
+              "properties": [
+                {
+                  "name": "model",
+                  "type": {
+                    "definitionName": "model"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionAuthorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "scope",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "instructions",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionCreatedAt",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "pictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "templateId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userFavorite",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "maxStepsPerRun",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "version",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantAgent_configurationsSearch_List": {
+              "name": "ApiV1WAssistantAgent_configurationsSearch_List",
+              "properties": [
+                {
+                  "name": "agentConfigurations",
+                  "type": {
+                    "definitionName": "agentConfigurations"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CB7B091D174_ApiV1WAssistantAgent_configurationsSearch_List",
+        "hash": "NWMyK0xpT2EwcXI5MWQvZko3VEVnaC9vNEV6NmFUSFQwNjlSR3ZXS2tWcG15OVh6eFdTRXV2Um9YYkhMQzdVbnNQb2w5azlWUXB3cTB0Tkl2dVVmRmc9PQ",
+        "assemblyName": "CB7B091D174_ApiV1WAs.AYzNi3xcJrM1w0FmI4lFQ8J3"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "ClH9XLL615AvGTdC/Qndprhq/4m++JO3kAxdOkKKP14vFAVvpNc0vehsmRIjxs452epBpdqfB6x4CB7TPOxawA==",
+        "bundleName": "CB7B091D174_ApiV1WAssistantAgent_configurationsSId_Retrieve",
+        "entitiesBundle": {
+          "Types": {
+            "model": {
+              "name": "model",
+              "properties": [
+                {
+                  "name": "temperature",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modelId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "providerId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "agentConfiguration": {
+              "name": "agentConfiguration",
+              "properties": [
+                {
+                  "name": "model",
+                  "type": {
+                    "definitionName": "model"
+                  }
+                },
+                {
+                  "name": "version",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userFavorite",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "templateId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "pictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "scope",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "instructions",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionCreatedAt",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionAuthorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "maxStepsPerRun",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantAgent_configurationsSId_Retrieve": {
+              "name": "ApiV1WAssistantAgent_configurationsSId_Retrieve",
+              "properties": [
+                {
+                  "name": "agentConfiguration",
+                  "type": {
+                    "definitionName": "agentConfiguration"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CB7B091D174_ApiV1WAssistantAgent_configurationsSId_Retrieve",
+        "hash": "Q2xIOVhMTDYxNUF2R1RkQy9RbmRwcmhxLzRtKytKTzNrQXhkT2tLS1AxNHZGQVZ2cE5jMHZlaHNtUklqeHM0NTJlcEJwZHFmQjZ4NENCN1RQT3hhd0E9PQ",
+        "assemblyName": "CB7B091D174_ApiV1WAs.JhCui3lyw3Q1dBZta3ZyWpw"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "+8mmjRTRv57ocqdf2svcGkRv4XG6rzHIPvdj9oSH2Szm51aWTB3+v2DNMo93XfeoNE7WYzE8ZDVnpar9Os6KLA==",
+        "bundleName": "CB7B091D174_ApiV1WAssistantConversationsCId_Retrieve",
+        "entitiesBundle": {
+          "Types": {
+            "owner": {
+              "name": "owner",
+              "properties": [
+                {
+                  "name": "whiteListedProviders",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "segmentation",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "ssoEnforced",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "defaultEmbeddingProvider",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "flags",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "role",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "conversation": {
+              "name": "conversation",
+              "properties": [
+                {
+                  "name": "owner",
+                  "type": {
+                    "definitionName": "owner"
+                  }
+                },
+                {
+                  "name": "title",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "content",
+                  "type": {
+                    "ClrType": "System.Object, System.Private.CoreLib"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "visibility",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "created",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantConversationsCId_Retrieve": {
+              "name": "ApiV1WAssistantConversationsCId_Retrieve",
+              "properties": [
+                {
+                  "name": "conversation",
+                  "type": {
+                    "definitionName": "conversation"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CB7B091D174_ApiV1WAssistantConversationsCId_Retrieve",
+        "hash": "KzhtbWpSVFJ2NTdvY3FkZjJzdmNHa1J2NFhHNnJ6SElQdmRqOW9TSDJTem01MWFXVEIzK3YyRE5NbzkzWGZlb05FN1dZekU4WkRWbnBhcjlPczZLTEE9PQ",
+        "assemblyName": "CB7B091D174_ApiV1WAs.lMclc2sX3BN1l576v3nQr8p3"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "5c2+LiOa0qr91d/fJ7TEgh/o4Ez6aTHT069RGvWKkVpmy9XzxWSEuvRoXbHLC7UnsPol9k9VQpwq0tNIvuUfFg==",
+        "bundleName": "CB361597A8F_ApiV1WAssistantAgent_configurationsSearch_List",
+        "entitiesBundle": {
+          "Types": {
+            "model": {
+              "name": "model",
+              "properties": [
+                {
+                  "name": "temperature",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Single, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "providerId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modelId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "agentConfigurations": {
+              "name": "agentConfigurations",
+              "properties": [
+                {
+                  "name": "model",
+                  "type": {
+                    "definitionName": "model"
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionAuthorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "scope",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "sId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "instructions",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "versionCreatedAt",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "pictureUrl",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "templateId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "userFavorite",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "maxStepsPerRun",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "version",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WAssistantAgent_configurationsSearch_List": {
+              "name": "ApiV1WAssistantAgent_configurationsSearch_List",
+              "properties": [
+                {
+                  "name": "agentConfigurations",
+                  "type": {
+                    "definitionName": "agentConfigurations"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CB361597A8F_ApiV1WAssistantAgent_configurationsSearch_List",
+        "hash": "NWMyK0xpT2EwcXI5MWQvZko3VEVnaC9vNEV6NmFUSFQwNjlSR3ZXS2tWcG15OVh6eFdTRXV2Um9YYkhMQzdVbnNQb2w5azlWUXB3cTB0Tkl2dVVmRmc9PQ",
+        "assemblyName": "CB361597A8F_ApiV1WAs.yMPnw3BKwKC1VAT0gTTT6V"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "3tn16ZU4YIgWLft9EQCPqSMSG0yRMj6aX6mUNNDzTArEqy0weiEirC6TEPxbsTT3frpwWiLhzraPct+5/+0YSQ==",
+        "bundleName": "CB361597A8F_ApiV1WSpacesSpaceIdData_sources_List",
+        "entitiesBundle": {
+          "Types": {
+            "data_sources": {
+              "name": "data_sources",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "connectorProvider",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "dustAPIProjectId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "description",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "assistantDefaultSelected",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "connectorId",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "createdAt",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "ApiV1WSpacesSpaceIdData_sources_List": {
+              "name": "ApiV1WSpacesSpaceIdData_sources_List",
+              "properties": [
+                {
+                  "name": "data_sources",
+                  "type": {
+                    "definitionName": "data_sources"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CB361597A8F_ApiV1WSpacesSpaceIdData_sources_List",
+        "hash": "M3RuMTZaVTRZSWdXTGZ0OUVRQ1BxU01TRzB5Uk1qNmFYNm1VTk5EelRBckVxeTB3ZWlFaXJDNlRFUHhic1RUM2ZycHdXaUxoenJhUGN0KzUvKzBZU1E9PQ",
+        "assemblyName": "CB361597A8F_ApiV1WSp.FJ0XT41iyTJ1vOtqw36BCmC3"
+      }
+    }
+  ]
+}
